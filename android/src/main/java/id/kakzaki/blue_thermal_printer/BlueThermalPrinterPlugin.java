@@ -291,7 +291,7 @@ public class BlueThermalPrinterPlugin implements FlutterPlugin, ActivityAware,Me
                     Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
 
               ActivityCompat.requestPermissions(activity,
-                  ANDROID_12_BLE_PERMISSIONS, REQUEST_BLE_12);
+                  ANDROID_12_BLE_PERMISSIONS, 1);
 
               pendingResult = result;
               break;
